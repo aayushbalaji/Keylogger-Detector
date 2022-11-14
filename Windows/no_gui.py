@@ -14,7 +14,7 @@ white_list = []
 while True:
     if time == 1:
         print("\nScanning in progress...")
-    proc = subprocess.Popen('netstat -ano -p tcp | findStr "587 465 2525"', shell=True, stdin=subprocess.PIPE,
+    proc = subprocess.Popen('netstat -ano -p tcp | findStr "993 587 465 2525"', shell=True, stdin=subprocess.PIPE,
                             stdout=subprocess.PIPE)
     out, err = proc.communicate()
 
