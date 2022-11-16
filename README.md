@@ -16,6 +16,6 @@ process is detected it will be automatically terminated.
 ## Monitored SMTP Ports
 | **SMTP Ports** | **E-mail Service**    |
 |----------------|-----------------------|
-| 587            | Gmail, Outlook, Americal Online |
+| 587            | Gmail, Outlook, America Online |
 | 465            | Yahoo, Live           |
 | 2525           | Other                 |
